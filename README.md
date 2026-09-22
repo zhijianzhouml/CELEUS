@@ -128,3 +128,7 @@ These include an exact rational-arithmetic check of the corrected signal, and an
 - The confidence sequence is a conservative float64 implementation with outward rounding, not a formally verified arbitrary-precision proof. The uniform baseline verifies its endpoints exactly.
 
 More detail: [`docs/METHOD_REVIEW.md`](docs/METHOD_REVIEW.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
