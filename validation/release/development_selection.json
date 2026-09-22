@@ -1,0 +1,35 @@
+{
+  "name": "celeus_water08",
+  "settings": {
+    "acquisition": "waterfill",
+    "beta": 0.8,
+    "ridge": 1.0,
+    "refit_every": 16,
+    "warmup": 32,
+    "half_life": 64.0,
+    "cap": 0.9,
+    "surrogate": true
+  },
+  "ranking": [
+    [
+      309.33333333333337,
+      "celeus_water08"
+    ],
+    [
+      311.875,
+      "celeus_guarded_ig"
+    ],
+    [
+      313.44444444444446,
+      "celeus_mix04"
+    ],
+    [
+      315.83333333333337,
+      "celeus_uniform"
+    ],
+    [
+      323.1944444444444,
+      "celeus_water04"
+    ]
+  ]
+}

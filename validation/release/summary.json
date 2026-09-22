@@ -1,0 +1,1256 @@
+[
+  {
+    "phase": "audit",
+    "method": "celeus_uniform",
+    "scenario": "clustered",
+    "runs": 100,
+    "failures": 1,
+    "path_coverage": 0.99,
+    "failure_95pct_CP": [
+      0.00025314603297742064,
+      0.054459385392080645
+    ],
+    "violation_pvalue": 0.7157434833048879,
+    "mean_queries": 414.0,
+    "median_queries": 420.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.09417329715564847
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_uniform",
+    "scenario": "heterogeneous",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 255.0,
+    "median_queries": 260.0,
+    "p90_queries": 290.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.0920090798381716
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_uniform",
+    "scenario": "linear",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 294.3,
+    "median_queries": 300.0,
+    "p90_queries": 320.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09989132229238748
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_uniform",
+    "scenario": "nonlinear",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 438.3,
+    "median_queries": 440.0,
+    "p90_queries": 451.0000000000001,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09883479445241392
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_uniform",
+    "scenario": "rare_errors",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 87.0,
+    "median_queries": 80.0,
+    "p90_queries": 120.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.07821287236176432
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_uniform",
+    "scenario": "uninformative",
+    "runs": 100,
+    "failures": 2,
+    "path_coverage": 0.98,
+    "failure_95pct_CP": [
+      0.0024313368239425423,
+      0.07038393247107011
+    ],
+    "violation_pvalue": 0.35592510774145464,
+    "mean_queries": 412.4,
+    "median_queries": 410.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 2,
+    "mean_cpu_seconds_full_path": 0.09302761468105018
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_water08",
+    "scenario": "clustered",
+    "runs": 100,
+    "failures": 1,
+    "path_coverage": 0.99,
+    "failure_95pct_CP": [
+      0.00025314603297742064,
+      0.054459385392080645
+    ],
+    "violation_pvalue": 0.7157434833048879,
+    "mean_queries": 411.6,
+    "median_queries": 410.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.12551933016628028
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_water08",
+    "scenario": "heterogeneous",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 218.1,
+    "median_queries": 215.0,
+    "p90_queries": 251.00000000000009,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.14212258025072516
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_water08",
+    "scenario": "linear",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 277.9,
+    "median_queries": 275.0,
+    "p90_queries": 301.0000000000001,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.14911334732547402
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_water08",
+    "scenario": "nonlinear",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 437.9,
+    "median_queries": 440.0,
+    "p90_queries": 460.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.11684192907065154
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_water08",
+    "scenario": "rare_errors",
+    "runs": 100,
+    "failures": 2,
+    "path_coverage": 0.98,
+    "failure_95pct_CP": [
+      0.0024313368239425423,
+      0.07038393247107011
+    ],
+    "violation_pvalue": 0.35592510774145464,
+    "mean_queries": 93.18,
+    "median_queries": 90.0,
+    "p90_queries": 130.0,
+    "precision_rate": 1.0,
+    "empty_count": 2,
+    "mean_cpu_seconds_full_path": 0.12159487403929234
+  },
+  {
+    "phase": "audit",
+    "method": "celeus_water08",
+    "scenario": "uninformative",
+    "runs": 100,
+    "failures": 1,
+    "path_coverage": 0.99,
+    "failure_95pct_CP": [
+      0.00025314603297742064,
+      0.054459385392080645
+    ],
+    "violation_pvalue": 0.7157434833048879,
+    "mean_queries": 412.6,
+    "median_queries": 420.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.11609400071203708
+  },
+  {
+    "phase": "audit",
+    "method": "corrected_no_surrogate",
+    "scenario": "clustered",
+    "runs": 100,
+    "failures": 1,
+    "path_coverage": 0.99,
+    "failure_95pct_CP": [
+      0.00025314603297742064,
+      0.054459385392080645
+    ],
+    "violation_pvalue": 0.7157434833048879,
+    "mean_queries": 431.9,
+    "median_queries": 430.0,
+    "p90_queries": 450.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.07598560552112758
+  },
+  {
+    "phase": "audit",
+    "method": "corrected_no_surrogate",
+    "scenario": "heterogeneous",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 320.7,
+    "median_queries": 320.0,
+    "p90_queries": 360.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.07133905163034797
+  },
+  {
+    "phase": "audit",
+    "method": "corrected_no_surrogate",
+    "scenario": "linear",
+    "runs": 100,
+    "failures": 1,
+    "path_coverage": 0.99,
+    "failure_95pct_CP": [
+      0.00025314603297742064,
+      0.054459385392080645
+    ],
+    "violation_pvalue": 0.7157434833048879,
+    "mean_queries": 429.3,
+    "median_queries": 430.0,
+    "p90_queries": 441.0000000000001,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.07970442987978459
+  },
+  {
+    "phase": "audit",
+    "method": "corrected_no_surrogate",
+    "scenario": "nonlinear",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 432.3,
+    "median_queries": 435.0,
+    "p90_queries": 450.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.07610612334683538
+  },
+  {
+    "phase": "audit",
+    "method": "corrected_no_surrogate",
+    "scenario": "rare_errors",
+    "runs": 100,
+    "failures": 1,
+    "path_coverage": 0.99,
+    "failure_95pct_CP": [
+      0.00025314603297742064,
+      0.054459385392080645
+    ],
+    "violation_pvalue": 0.7157434833048879,
+    "mean_queries": 87.5,
+    "median_queries": 80.0,
+    "p90_queries": 121.00000000000009,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.05923321483656764
+  },
+  {
+    "phase": "audit",
+    "method": "corrected_no_surrogate",
+    "scenario": "uninformative",
+    "runs": 100,
+    "failures": 2,
+    "path_coverage": 0.98,
+    "failure_95pct_CP": [
+      0.0024313368239425423,
+      0.07038393247107011
+    ],
+    "violation_pvalue": 0.35592510774145464,
+    "mean_queries": 404.5,
+    "median_queries": 410.0,
+    "p90_queries": 430.0,
+    "precision_rate": 1.0,
+    "empty_count": 2,
+    "mean_cpu_seconds_full_path": 0.07442902965471149
+  },
+  {
+    "phase": "audit",
+    "method": "evalue",
+    "scenario": "clustered",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 497.8,
+    "median_queries": 500.0,
+    "p90_queries": 520.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005459124362096191
+  },
+  {
+    "phase": "audit",
+    "method": "evalue",
+    "scenario": "heterogeneous",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 355.8,
+    "median_queries": 360.0,
+    "p90_queries": 390.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.0061817009653896094
+  },
+  {
+    "phase": "audit",
+    "method": "evalue",
+    "scenario": "linear",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 493.7,
+    "median_queries": 500.0,
+    "p90_queries": 520.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005721085993573069
+  },
+  {
+    "phase": "audit",
+    "method": "evalue",
+    "scenario": "nonlinear",
+    "runs": 100,
+    "failures": 2,
+    "path_coverage": 0.98,
+    "failure_95pct_CP": [
+      0.0024313368239425423,
+      0.07038393247107011
+    ],
+    "violation_pvalue": 0.35592510774145464,
+    "mean_queries": 495.3,
+    "median_queries": 510.0,
+    "p90_queries": 520.0,
+    "precision_rate": 1.0,
+    "empty_count": 2,
+    "mean_cpu_seconds_full_path": 0.0055018261447548865
+  },
+  {
+    "phase": "audit",
+    "method": "evalue",
+    "scenario": "rare_errors",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 109.08,
+    "median_queries": 100.0,
+    "p90_queries": 150.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005494252946227789
+  },
+  {
+    "phase": "audit",
+    "method": "evalue",
+    "scenario": "uninformative",
+    "runs": 100,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.03621669264517641
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 473.2,
+    "median_queries": 480.0,
+    "p90_queries": 500.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005530142635107041
+  },
+  {
+    "phase": "development",
+    "method": "celeus_guarded_ig",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 408.3333333333333,
+    "median_queries": 410.0,
+    "p90_queries": 439.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3128448548571517
+  },
+  {
+    "phase": "development",
+    "method": "celeus_guarded_ig",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 226.66666666666666,
+    "median_queries": 230.0,
+    "p90_queries": 249.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3214587817589442
+  },
+  {
+    "phase": "development",
+    "method": "celeus_guarded_ig",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 1,
+    "path_coverage": 0.9166666666666666,
+    "failure_95pct_CP": [
+      0.0021075932318602264,
+      0.38479616515094406
+    ],
+    "violation_pvalue": 0.14010534075097308,
+    "mean_queries": 277.5,
+    "median_queries": 275.0,
+    "p90_queries": 300.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.3529252679242442
+  },
+  {
+    "phase": "development",
+    "method": "celeus_guarded_ig",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 441.6666666666667,
+    "median_queries": 450.0,
+    "p90_queries": 459.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3410947755134354
+  },
+  {
+    "phase": "development",
+    "method": "celeus_guarded_ig",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 1,
+    "path_coverage": 0.9166666666666666,
+    "failure_95pct_CP": [
+      0.0021075932318602264,
+      0.38479616515094406
+    ],
+    "violation_pvalue": 0.14010534075097308,
+    "mean_queries": 106.25,
+    "median_queries": 100.0,
+    "p90_queries": 147.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.29649838448191684
+  },
+  {
+    "phase": "development",
+    "method": "celeus_guarded_ig",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 410.8333333333333,
+    "median_queries": 415.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.5737591373423735
+  },
+  {
+    "phase": "development",
+    "method": "celeus_mix04",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 410.0,
+    "median_queries": 410.0,
+    "p90_queries": 430.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.10361589499128361
+  },
+  {
+    "phase": "development",
+    "method": "celeus_mix04",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 230.83333333333334,
+    "median_queries": 225.0,
+    "p90_queries": 268.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09759230422787368
+  },
+  {
+    "phase": "development",
+    "method": "celeus_mix04",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 290.0,
+    "median_queries": 290.0,
+    "p90_queries": 310.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.11375066296507914
+  },
+  {
+    "phase": "development",
+    "method": "celeus_mix04",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 443.3333333333333,
+    "median_queries": 440.0,
+    "p90_queries": 460.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.10422706472066541
+  },
+  {
+    "phase": "development",
+    "method": "celeus_mix04",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 94.83333333333333,
+    "median_queries": 90.0,
+    "p90_queries": 135.4,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09098918192709486
+  },
+  {
+    "phase": "development",
+    "method": "celeus_mix04",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 411.6666666666667,
+    "median_queries": 410.0,
+    "p90_queries": 439.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.10313867397295932
+  },
+  {
+    "phase": "development",
+    "method": "celeus_uniform",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 406.6666666666667,
+    "median_queries": 415.0,
+    "p90_queries": 430.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.0991544493008405
+  },
+  {
+    "phase": "development",
+    "method": "celeus_uniform",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 256.6666666666667,
+    "median_queries": 255.0,
+    "p90_queries": 279.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09117022412829101
+  },
+  {
+    "phase": "development",
+    "method": "celeus_uniform",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 291.6666666666667,
+    "median_queries": 290.0,
+    "p90_queries": 310.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09492768448156615
+  },
+  {
+    "phase": "development",
+    "method": "celeus_uniform",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 439.1666666666667,
+    "median_queries": 445.0,
+    "p90_queries": 450.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09418743732385337
+  },
+  {
+    "phase": "development",
+    "method": "celeus_uniform",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 94.16666666666667,
+    "median_queries": 80.0,
+    "p90_queries": 149.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.08044217185427745
+  },
+  {
+    "phase": "development",
+    "method": "celeus_uniform",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 406.6666666666667,
+    "median_queries": 415.0,
+    "p90_queries": 420.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.12155361116553347
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water04",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 421.6666666666667,
+    "median_queries": 425.0,
+    "p90_queries": 439.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.11721653514541686
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water04",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 240.0,
+    "median_queries": 240.0,
+    "p90_queries": 259.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.12283606951435407
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water04",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 310.8333333333333,
+    "median_queries": 310.0,
+    "p90_queries": 329.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.147232517056788
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water04",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 445.8333333333333,
+    "median_queries": 450.0,
+    "p90_queries": 459.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.1179978820340087
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water04",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 108.33333333333333,
+    "median_queries": 95.0,
+    "p90_queries": 140.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.10442032129503787
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water04",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 412.5,
+    "median_queries": 415.0,
+    "p90_queries": 430.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.1255962406285107
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water08",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 408.3333333333333,
+    "median_queries": 410.0,
+    "p90_queries": 430.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.12880577488491932
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water08",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 219.16666666666666,
+    "median_queries": 230.0,
+    "p90_queries": 240.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.1419302315916866
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water08",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 284.1666666666667,
+    "median_queries": 290.0,
+    "p90_queries": 300.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.14751796253646413
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water08",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 441.6666666666667,
+    "median_queries": 440.0,
+    "p90_queries": 450.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.12193387405325969
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water08",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 92.66666666666667,
+    "median_queries": 85.0,
+    "p90_queries": 110.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.12626065818282464
+  },
+  {
+    "phase": "development",
+    "method": "celeus_water08",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 410.0,
+    "median_queries": 415.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.1317777237854898
+  },
+  {
+    "phase": "development",
+    "method": "corrected_no_surrogate",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 424.1666666666667,
+    "median_queries": 425.0,
+    "p90_queries": 440.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.07807813763308029
+  },
+  {
+    "phase": "development",
+    "method": "corrected_no_surrogate",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 324.1666666666667,
+    "median_queries": 330.0,
+    "p90_queries": 340.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.07007237236636381
+  },
+  {
+    "phase": "development",
+    "method": "corrected_no_surrogate",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 442.5,
+    "median_queries": 440.0,
+    "p90_queries": 459.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.07793038757517934
+  },
+  {
+    "phase": "development",
+    "method": "corrected_no_surrogate",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 433.3333333333333,
+    "median_queries": 430.0,
+    "p90_queries": 450.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.08337806568791468
+  },
+  {
+    "phase": "development",
+    "method": "corrected_no_surrogate",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 105.0,
+    "median_queries": 85.0,
+    "p90_queries": 185.00000000000003,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.06092606236537298
+  },
+  {
+    "phase": "development",
+    "method": "corrected_no_surrogate",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 400.8333333333333,
+    "median_queries": 405.0,
+    "p90_queries": 419.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.09385512652806938
+  },
+  {
+    "phase": "development",
+    "method": "evalue",
+    "scenario": "clustered",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 503.3333333333333,
+    "median_queries": 520.0,
+    "p90_queries": 520.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005853869408989946
+  },
+  {
+    "phase": "development",
+    "method": "evalue",
+    "scenario": "heterogeneous",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 349.1666666666667,
+    "median_queries": 360.0,
+    "p90_queries": 380.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.006368388033782442
+  },
+  {
+    "phase": "development",
+    "method": "evalue",
+    "scenario": "linear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 509.1666666666667,
+    "median_queries": 510.0,
+    "p90_queries": 520.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.00568837175766627
+  },
+  {
+    "phase": "development",
+    "method": "evalue",
+    "scenario": "nonlinear",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 510.0,
+    "median_queries": 515.0,
+    "p90_queries": 520.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005526702385395765
+  },
+  {
+    "phase": "development",
+    "method": "evalue",
+    "scenario": "rare_errors",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 122.5,
+    "median_queries": 110.0,
+    "p90_queries": 170.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.005353725670526425
+  },
+  {
+    "phase": "development",
+    "method": "evalue",
+    "scenario": "uninformative",
+    "runs": 12,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.2646484693970512
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 470.8333333333333,
+    "median_queries": 470.0,
+    "p90_queries": 490.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.006395929881061117
+  }
+]

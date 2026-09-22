@@ -1,0 +1,12 @@
+{
+  "n": 1600,
+  "seeds_per_scenario": 20,
+  "dimension": 52,
+  "epsilon_half_width": 0.02,
+  "alpha_per_benchmark": 0.0125,
+  "selection_frozen": "celeus_water08",
+  "seed_start": 410000,
+  "selected_configuration_unchanged": true,
+  "core_sha256": "a73387cd1230abc163a21cfa045cd685326f32944e6e787debbeaf1592384ad1",
+  "api_calls": 0
+}

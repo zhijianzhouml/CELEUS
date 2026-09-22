@@ -1,0 +1,79 @@
+{
+  "N": 800,
+  "alpha_per_benchmark": 0.0125,
+  "epsilon_half_width": 0.05,
+  "check_every": 10,
+  "dev_seeds": 12,
+  "audit_seeds": 100,
+  "development_seed_start": 11000,
+  "audit_seed_start": 81000,
+  "scenarios": [
+    "linear",
+    "heterogeneous",
+    "nonlinear",
+    "uninformative",
+    "rare_errors",
+    "clustered"
+  ],
+  "candidate_settings": {
+    "celeus_uniform": {
+      "acquisition": "uniform",
+      "beta": 0.4,
+      "ridge": 1.0,
+      "refit_every": 16,
+      "warmup": 32,
+      "half_life": 64.0,
+      "cap": 0.9,
+      "surrogate": true
+    },
+    "celeus_mix04": {
+      "acquisition": "mixture",
+      "beta": 0.4,
+      "ridge": 1.0,
+      "refit_every": 16,
+      "warmup": 32,
+      "half_life": 64.0,
+      "cap": 0.9,
+      "surrogate": true
+    },
+    "celeus_water04": {
+      "acquisition": "waterfill",
+      "beta": 0.4,
+      "ridge": 1.0,
+      "refit_every": 16,
+      "warmup": 32,
+      "half_life": 64.0,
+      "cap": 0.9,
+      "surrogate": true
+    },
+    "celeus_water08": {
+      "acquisition": "waterfill",
+      "beta": 0.8,
+      "ridge": 1.0,
+      "refit_every": 16,
+      "warmup": 32,
+      "half_life": 64.0,
+      "cap": 0.9,
+      "surrogate": true
+    },
+    "celeus_guarded_ig": {
+      "acquisition": "guarded_ig",
+      "beta": 0.4,
+      "ridge": 1.0,
+      "refit_every": 16,
+      "warmup": 32,
+      "half_life": 64.0,
+      "cap": 0.9,
+      "surrogate": true
+    }
+  },
+  "selection_metric": "macro mean first-stop fraction; CELEUS candidates only; coverage screening first",
+  "coverage_screen": "one-sided exact binomial p < .01/(methods*scenarios) flags an implementation concern; passing does NOT prove coverage",
+  "core_sha256": "a73387cd1230abc163a21cfa045cd685326f32944e6e787debbeaf1592384ad1",
+  "python": "3.12.3",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "synthetic_only": true,
+  "extra_llm_calls": 0,
+  "model_calls": 0
+}

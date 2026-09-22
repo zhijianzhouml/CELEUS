@@ -1,0 +1,344 @@
+[
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_uniform",
+    "scenario": "clustered",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1234.5,
+    "median_queries": 1250.0,
+    "p90_queries": 1261.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3876282618846744
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_uniform",
+    "scenario": "heterogeneous",
+    "runs": 20,
+    "failures": 2,
+    "path_coverage": 0.9,
+    "failure_95pct_CP": [
+      0.012348527170294808,
+      0.31698271401908235
+    ],
+    "violation_pvalue": 0.025571025242597228,
+    "mean_queries": 912.5,
+    "median_queries": 915.0,
+    "p90_queries": 962.0,
+    "precision_rate": 1.0,
+    "empty_count": 2,
+    "mean_cpu_seconds_full_path": 0.29902711189351977
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_uniform",
+    "scenario": "linear",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1004.0,
+    "median_queries": 1015.0,
+    "p90_queries": 1040.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3072353552095592
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_uniform",
+    "scenario": "nonlinear",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1274.5,
+    "median_queries": 1280.0,
+    "p90_queries": 1290.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3156210895627737
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_uniform",
+    "scenario": "rare_errors",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 379.0,
+    "median_queries": 380.0,
+    "p90_queries": 534.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.31451474386267364
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_uniform",
+    "scenario": "uninformative",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1211.5,
+    "median_queries": 1220.0,
+    "p90_queries": 1241.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3452640980482101
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_water08",
+    "scenario": "clustered",
+    "runs": 20,
+    "failures": 1,
+    "path_coverage": 0.95,
+    "failure_95pct_CP": [
+      0.0012650894979498038,
+      0.24873276277202777
+    ],
+    "violation_pvalue": 0.2224253635774261,
+    "mean_queries": 1229.0,
+    "median_queries": 1230.0,
+    "p90_queries": 1261.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.5099873158149422
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_water08",
+    "scenario": "heterogeneous",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 802.0,
+    "median_queries": 800.0,
+    "p90_queries": 841.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.41790754958055915
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_water08",
+    "scenario": "linear",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 952.0,
+    "median_queries": 950.0,
+    "p90_queries": 991.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.43677977765910325
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_water08",
+    "scenario": "nonlinear",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1276.5,
+    "median_queries": 1280.0,
+    "p90_queries": 1300.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.3812177435960621
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_water08",
+    "scenario": "rare_errors",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 424.8,
+    "median_queries": 425.0,
+    "p90_queries": 516.0000000000001,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.450812491774559
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "celeus_water08",
+    "scenario": "uninformative",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1235.0,
+    "median_queries": 1235.0,
+    "p90_queries": 1260.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.44046871694736184
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "evalue",
+    "scenario": "clustered",
+    "runs": 20,
+    "failures": 1,
+    "path_coverage": 0.95,
+    "failure_95pct_CP": [
+      0.0012650894979498038,
+      0.24873276277202777
+    ],
+    "violation_pvalue": 0.2224253635774261,
+    "mean_queries": 1314.5,
+    "median_queries": 1365.0,
+    "p90_queries": 1390.0,
+    "precision_rate": 1.0,
+    "empty_count": 1,
+    "mean_cpu_seconds_full_path": 0.023834785865619778
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "evalue",
+    "scenario": "heterogeneous",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1176.5,
+    "median_queries": 1185.0,
+    "p90_queries": 1221.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.02632816187106073
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "evalue",
+    "scenario": "linear",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1365.5,
+    "median_queries": 1380.0,
+    "p90_queries": 1390.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.021576280845329164
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "evalue",
+    "scenario": "nonlinear",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1372.0,
+    "median_queries": 1380.0,
+    "p90_queries": 1390.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.02173214964568615
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "evalue",
+    "scenario": "rare_errors",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 493.9,
+    "median_queries": 510.0,
+    "p90_queries": 621.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.026869971910491584
+  },
+  {
+    "phase": "transfer_stress",
+    "method": "evalue",
+    "scenario": "uninformative",
+    "runs": 20,
+    "failures": 0,
+    "path_coverage": 1.0,
+    "failure_95pct_CP": [
+      0.0,
+      0.1684334709830853
+    ],
+    "violation_pvalue": 1.0,
+    "mean_queries": 1337.5,
+    "median_queries": 1345.0,
+    "p90_queries": 1360.0,
+    "precision_rate": 1.0,
+    "empty_count": 0,
+    "mean_cpu_seconds_full_path": 0.025024684332311153
+  }
+]
